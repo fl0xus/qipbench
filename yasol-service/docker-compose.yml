@@ -1,0 +1,12 @@
+services:
+  yasol:
+    build: .
+    image: yasol-service
+    ports:
+      - "8000:8000"
+    environment:
+      # Wall-clock ceiling the API accepts per request.
+      YASOL_MAX_TIMEOUT: "600"
+      YASOL_DEFAULT_TIME_LIMIT: "60"
+    # /solve/julia runs arbitrary code. Bind to loopback only unless the network is trusted.
+    # Change the port mapping above to "127.0.0.1:8000:8000" when in doubt.
