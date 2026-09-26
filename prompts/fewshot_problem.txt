@@ -1,0 +1,18 @@
+A workshop has to be ready for one rush order, and does not know which of its two
+customers will place it.
+
+Before anything is known, the workshop may reserve overtime slots: up to two for the
+morning team at a cost of 4 each, and up to two for the evening team at a cost of 4 each.
+Each reserved slot delivers 3 finished pieces for the team it was reserved with.
+
+Then exactly one of the two customers places a rush order — never both, never neither, and
+the workshop must be prepared for whichever it turns out to be. The morning team serves
+customer 1, the evening team serves customer 2. A rush order raises the affected
+customer's requirement by 3 pieces.
+
+Only once the order has arrived may the workshop hire a single freelancer, at a cost of 2,
+who delivers 3 pieces for whichever customer needs them. There is only one freelancer
+available, so the choice is where to send them.
+
+Customer 1 needs 3 pieces in any case, customer 2 needs 4. Every reservation and the hire
+are yes/no decisions. Minimise the total cost in the worst case.

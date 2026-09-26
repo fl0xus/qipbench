@@ -1,0 +1,32 @@
+{
+  "built_from": {
+    "qip_hand": "/Users/florianbreda/AI-Projekte/or-benchmark/data/qip_hand/test.jsonl",
+    "qip_2": "/Users/florianbreda/AI-Projekte/or-benchmark/data/qip_2/test.jsonl",
+    "qip_int": "/Users/florianbreda/AI-Projekte/or-benchmark/data/qip_int/test.jsonl",
+    "qlp": "/Users/florianbreda/AI-Projekte/or-benchmark/data/qlp/test.jsonl"
+  },
+  "instances": 16,
+  "by_origin": {
+    "hand-written": 12,
+    "qip_2": 1,
+    "qip_int": 1,
+    "qlp": 2
+  },
+  "by_template": {
+    "handwritten": 12,
+    "flexible_recourse": 1,
+    "flexible_recourse_int": 1,
+    "capacity_cover": 1,
+    "multistage_production": 1
+  },
+  "by_status": {
+    "OPTIMAL": 16
+  },
+  "selection_rule": "all hand-written instances, plus 1 representative(s) per generated template (median objective, ties by id)",
+  "generated_ids": [
+    "flexible_recourse_003",
+    "flexible_recourse_int_000",
+    "capacity_cover_043",
+    "multistage_production_052"
+  ]
+}

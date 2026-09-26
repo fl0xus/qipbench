@@ -1,0 +1,7 @@
+model_parameters:
+  model_name: "openai/gemma-4-31B-it-UD-Q4_K_XL"
+  base_url: ""
+  api_key_env: "OR_BENCH_API_KEY"
+  timeout: 3600
+  generation_parameters:
+    temperature: 0.0
