@@ -1,4 +1,4 @@
-# or-benchmark — `qip_final`
+# QIPBench
 
 A benchmark for LLM-assisted modelling of **quantified integer programs** (QIP): a
 natural-language problem goes in, a solvable model comes out, and the model is graded by
